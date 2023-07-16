@@ -298,6 +298,7 @@ body { background: var(--white); }
 
 .features-list {
   display: grid;
+  justify-content: center;
   gap: 25px;
 }
 
@@ -335,6 +336,10 @@ body { background: var(--white); }
   color: var(--space-cadet);
 }
 
+.booking-section p{
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
 
 
 
@@ -803,6 +808,10 @@ body { background: var(--white); }
   margin-bottom: 30px;
 }
 
+.footer-brand{
+  margin-right: 20%;
+}
+
 .location-icon {
   background: var(--cultured);
   color: #4B57D2;
@@ -830,7 +839,7 @@ body { background: var(--white); }
   margin-bottom: 20px;
 }
 
-.quicklink-list { column-count: 2; }
+.quicklink-list { column-count: 1; }
 
 .quicklink-list > li { padding-block: 8px; }
 
@@ -1149,6 +1158,8 @@ body { background: var(--white); }
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px 60px;
+    justify-content: center;
+    text-align: center;
   }
 
   .footer-bottom .container {
@@ -1397,6 +1408,7 @@ body { background: var(--white); }
 
   .footer-top .container {
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     gap: 30px;
   }
 
