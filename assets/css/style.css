@@ -831,7 +831,7 @@ body { background: var(--white); }
   font-style: normal;
 }
 
-.quicklink-box { margin-bottom: 15px; }
+.quicklink-box { margin-bottom: 2.5%; }
 
 .quicklink-title,
 .contact-title {
@@ -839,7 +839,7 @@ body { background: var(--white); }
   margin-bottom: 20px;
 }
 
-.quicklink-list { column-count: 1; }
+.quicklink-list { column-count: 2; }
 
 .quicklink-list > li { padding-block: 8px; }
 

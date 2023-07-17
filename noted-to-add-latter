@@ -1,0 +1,18 @@
+    <!-- <li>
+        <a href="#" class="navbar-link" data-navbar-link>Projects</a>
+    </li> -->
+
+
+
+
+    <li>
+        <a href="#" class="quicklink">Projects & Testimonials</a>
+      </li>
+
+
+
+
+
+      use js to make nav links and footer links go to different places on the page. home goes nowhere, services goes to Section 2 Intrduction To Services Fetures
+
+      To Services Fetures Starts . Who We Help goes to Section 3 About Services Fetures Starts ,  about us goes to Section 4 About US Starts, Get Started goes to Section 5 Booking Section the html code:

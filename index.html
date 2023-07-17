@@ -50,32 +50,28 @@
           <ul class="navbar-list">
 
             <li>
-              <a href="index.html" class="navbar-link">Home</a>
+              <a href="#home" class="navbar-link" data-navbar-link>Home</a>
             </li>
 
             <li>
-              <a href="service.html" class="navbar-link">Service</a>
+              <a href="#features" class="navbar-link" data-navbar-link>Service</a>
             </li>
 
             <li>
-              <a href="about.html" class="navbar-link">About US</a>
+              <a href="#service" class="navbar-link" data-navbar-link>Who We Help</a>
             </li>
 
             <li>
-              <a href="projects.html" class="navbar-link">Projects</a>
+              <a href="#blog" class="navbar-link" data-navbar-link>About US</a>
             </li>
 
           </ul>
         </div>
       </nav>
-      <a href="booking.html">
-        <button class="btn btn-secondary">
-          <span>Get Started</span>
-  
-          <ion-icon name="chevron-forward-outline"></ion-icon>
-        </button>
-      </a>
 
+      <button class="btn btn-primary" data-scroll-to="#booking-section">
+        <span>Get Started Now</span>
+      </button>
     </div>
   </header>
 
@@ -86,9 +82,7 @@
   <main>
     <article>
 
-      <!-- 
-        - #HERO
-      -->
+      <!-- Section 1 Hero Starts-->
 
       <section class="hero" id="home">
 
@@ -109,9 +103,8 @@
               Experience the Power of Compelling Design and Streamlined Functionality for Maximum Success.
             </p>
 
-            <button class="btn btn-primary">
+            <button class="btn btn-primary" data-scroll-to="#booking-section">
               <span>Get Started Now</span>
-
             </button>
 
           </div>
@@ -120,13 +113,15 @@
 
       </section>
 
+      <!-- Section 1 Hero Ends-->
 
 
 
 
-      <!-- 
-        - #FEATURES
-      -->
+
+
+      
+      <!-- Section 2 Intrduction To Services Fetures Starts-->
 
       <section class="features" id="features">
         <div class="container">
@@ -231,6 +226,7 @@
       </section>
 
 
+      <!-- Section 2 Intrduction To Services Fetures Ends-->
 
 
 
@@ -244,9 +240,8 @@
 
 
 
-      <!-- 
-        - #SERVICE
-      -->
+
+      <!-- Section 3 About Services Fetures Starts-->
 
       <section class="service" id="service">
         <div class="container">
@@ -399,6 +394,8 @@
 
 
 
+
+      <!-- Section 3 About Services Fetures Ends-->
       
 
 
@@ -409,9 +406,8 @@
       
 
 
-      <!-- 
-        - #BLOG
-      -->
+      <!-- Section 4 About US Starts-->
+
       <section class="blog" id="blog">
         <div class="container">
       
@@ -470,7 +466,7 @@
               </li>
 
 
-              <li class="service-item">
+              <!-- <li class="service-item">
 
                 <div class="service-item-icon">
                   <ion-icon name="bookmark"></ion-icon>
@@ -482,53 +478,31 @@
                 </button>
     
 
-              </li>
+              </li> -->
 
           </div>
           <!-- Company Story -->
       
         </div>
       </section>
+      <!-- Section 4 About US Ends-->
       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       
-
-
-
-
-
-
-
-
-
-  <!-- booking section starts ends-->
-
-
-      <section class="booking-section" id="features">
+      
+      
+      
+      
+      
+      
+      
+      <!-- Section 5 Booking Section Starts -->
+      <section class="booking-section" id="booking-section" data-scroll-to="#booking-section">
+        
         <div class="container">
 
           <p class="section-subtitle-2">Get In Touch</p>
 
           <h2 class="h2 section-title">Book A 15 Minute Meeting</h2>
-
-          
-
-            
 
             <li>
               <p>Experience the Power of a Free 15-Minute Demo Call</p>
@@ -564,17 +538,11 @@
               <!-- Calendly inline widget end -->
             </li>
 
-            
-            
-
-
-
           </ul>
 
         </div>
       </section>
-
-  <!-- booking section starts ends-->
+      <!-- Section 5 Booking Section Ends-->
 
 
 
@@ -583,13 +551,6 @@
 
     </article>
   </main>
-
-
-
-
-
-
-
 
 
 
@@ -662,23 +623,28 @@
           <ul class="quicklink-list">
 
             <li>
-              <a href="#" class="quicklink">Home</a>
+              <a href="#home" class="navbar-link" data-navbar-link>Home</a>
             </li>
 
             <li>
-              <a href="#" class="quicklink">Service</a>
+              <a href="#features" class="navbar-link" data-navbar-link>Service</a>
             </li>
 
             <li>
-              <a href="#" class="quicklink">About US</a>
+              <a href="#service" class="navbar-link" data-navbar-link>Who We Help</a>
             </li>
 
             <li>
-              <a href="#" class="quicklink">Projects & Testimonials</a>
+              <a href="#blog" class="navbar-link" data-navbar-link>About US</a>
             </li>
 
             <li>
-              <a href="#" class="quicklink">Booking</a>
+              <a href="#booking-section" class="navbar-link" data-navbar-link>Booking</a>
+            </li>
+
+
+            <li>
+              <a href="#footer-bottom" class="navbar-link" data-navbar-link>Social Media</a>
             </li>
 
 
