@@ -1,19 +1,4 @@
-*{
-  overflow-x: hidden;
-}
 
-
-
-body{
-  overflow-x: hidden;
-}
-
-
-section{
-  overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
 
 :root {
 
@@ -803,7 +788,7 @@ body { background: var(--white); }
 
 .newsletter-banner :is(.section-subtitle, .section-title) { text-align: center; }
 
-.newsletter .section-title { margin-bottom: 40px; }
+.newsletter .section-title { margin-bottom: 40px; overflow-x: hidden;}
 
 .input-field {
   background: var(--white);
