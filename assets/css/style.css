@@ -1591,14 +1591,14 @@ body { background: var(--white); }
 @media (max-width: 480px) {
   /* Mobile-specific styles */
 
-  /* .services-img-banner-1{
+  .services-img-banner-1{
     display: none;
   }
   
   
   .services-img-banner-2{
     display: none;
-  } */
+  }
 }
 
 
