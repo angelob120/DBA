@@ -147,3 +147,26 @@ getStartedBtn.addEventListener('click', (e) => {
     });
   }
 });
+
+
+
+
+// Get the target section element
+const targetSection = document.querySelector('#features');
+
+// Wait for the DOM content to load
+document.addEventListener("DOMContentLoaded", () => {
+  // Get the "Get Started Now" button by its class name
+  const getStartedButton = document.querySelector(".btn.btn-primary[data-scroll-to='#booking-section']");
+
+  // Get the target section by its ID
+  const targetSection = document.querySelector("#features");
+
+  // Function to scroll to the target section smoothly
+  const scrollToSection = () => {
+    targetSection.scrollIntoView({ behavior: "smooth" });
+  };
+
+  // Add a click event listener to the button
+  getStartedButton.addEventListener("click", scrollToSection);
+});
