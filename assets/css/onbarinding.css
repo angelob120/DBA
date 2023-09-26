@@ -26,16 +26,6 @@ body{
     text-align: center;
 }
 
-/* Style for the next button */
-.next-button {
-    display: inline-block;
-    padding: 15px 30px;
-    color: #fff; /* Text color */
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
-}
 
 /* Style for the container that holds the video and button */
 .video-container {
@@ -47,7 +37,6 @@ body{
 
 /* Style for the button */
 .next-button {
-    display: block; /* Make the button a block element to stretch horizontally */
     width: 100%; /* Stretch the button to the full width of the container */
     text-align: center; /* Center-align the button text */
     margin-top: 10px; /* Add spacing between video and button */
@@ -89,24 +78,24 @@ h1 b {
 }
 
 
-
 /* Style for the button */
 .next-button-2 {
-    display: block; /* Make the button a block element to stretch horizontally */
-    width: 100%; /* Stretch the button to the full width of the container */
-    text-align: center; /* Center-align the button text */
-    margin-top: 10px; /* Add spacing between video and button */
+  display: block; /* Make the button a block element to stretch horizontally */
+  width: 100%; /* Stretch the button to the full width of the container */
+  text-align: center; /* Center-align the button text */
+  margin-top: 10px; /* Add spacing between video and button */
 }
 
 /* Additional button styles as needed */
 .button-2 {
-    padding: 10px 20px;
-    background-color: #f5f5f5;; /* Change to your preferred button color */
-    color: black; /* Text color */
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+  padding: 10px 20px;
+  background-color: #f5f5f5; /* Change to your preferred button color */
+  color: black; /* Text color */
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  border: none; /* Remove the border */
 }
 
 /* Mobile devices (up to 767px) */
