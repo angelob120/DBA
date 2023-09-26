@@ -109,3 +109,92 @@ h1 b {
     transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+    /* Add your mobile-specific styles here */
+    body {
+      /* Example mobile styles */
+      font-size: 14px;
+    }
+  
+    .header {
+      /* Example mobile styles for header */
+      padding: 10px;
+    }
+  
+    .header-img {
+      /* Example mobile styles for header image */
+      max-width: 100%;
+    }
+  
+    .hero {
+      /* Example mobile styles for hero section */
+      padding: 20px;
+    }
+  
+    /* Add more mobile-specific styles as needed */
+  }
+  
+  /* Tablets and larger devices (768px and above) */
+  @media (min-width: 768px) {
+    /* Add your tablet and larger device styles here */
+    body {
+      /* Example tablet styles */
+      font-size: 16px;
+    }
+  
+    .header {
+      /* Example tablet styles for header */
+      padding: 20px;
+    }
+  
+    .header-img {
+      /* Example tablet styles for header image */
+      max-width: 80%;
+    }
+  
+    .hero {
+      /* Example tablet styles for hero section */
+      padding: 40px;
+    }
+  
+    /* Add more tablet and larger device styles as needed */
+  }
+
+
+  /* Hide the iframe on mobile devices */
+@media (max-width: 767px) {
+    iframe {
+      display: none;
+    }
+  }
+  
+  /* Make the header image smaller on mobile devices */
+  @media (max-width: 480px) {
+    .header-img {
+      width: 50%;
+    }
+  }
+
+  /* Make the text smaller on mobile devices */
+@media (max-width: 767px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Make the buttons smaller on mobile devices */
+  @media (max-width: 767px) {
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  /* Make the video frame a good size to match on mobile devices */
+  @media (max-width: 767px) {
+    iframe {
+      width: 100%;
+      height: 300px;
+    }
+  }
