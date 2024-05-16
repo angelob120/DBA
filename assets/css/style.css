@@ -514,6 +514,8 @@ body { background: var(--white); }
   width: 180px;
   height: 300px;
   border-radius: 10px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .image-sec-4-2 {
@@ -536,6 +538,20 @@ body { background: var(--white); }
 .sec-4-h1-text-2 {
   color: #4B57D2;
   margin-top: 5%;
+  margin-right: 5%;
+}
+
+.sec-4-h1-text-3 {
+  color: #4B57D2;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+.sec-4-h2-text-3{
+  color: #4B57D2;
+  margin-top: 5%;
+  margin-left: 20%;
+
 }
 
 .sec-4-h2-text {
@@ -784,7 +800,7 @@ body { background: var(--white); }
 
 
 /*-----------------------------------*\
-  #NEWSLETTER
+  #NEWSLETTERsec-4-h1-text-2
 \*-----------------------------------*/
 
 .Booking-section {
