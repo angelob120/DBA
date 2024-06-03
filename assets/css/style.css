@@ -479,7 +479,7 @@ body { background: var(--white); }
 }
 
 .images-column-sec-4 {
-  width: 40%;
+  width: 20%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
